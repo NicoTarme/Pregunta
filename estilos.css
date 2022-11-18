@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+}
+
+.contenedor{
+    background-image: url(./img/Corazon-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50px 25px;
+    background-position: 20% 10%;
+    background-position: left top;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 3px 3px 0 black ;
+    font-size: xxx-large;
+    padding: 15%;
+    color: rgb(255, 255, 255);
+    
+}
+
+button{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: xx-large;
+    padding: 0.75em;
+    color: black;
+    transform: translate(-50%, -50%);
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+    margin: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 20px black;
+}
+
+#noBtn{
+    position: absolute;
+    transform: translate(-100%,0);
+    margin: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 5px 5px 20px black
+                
+}
